@@ -1,7 +1,7 @@
 // api-services.js
 import axios from "axios";
 
-const apiKey = "YOUR_API_KEY"; // Replace with your API key
+const apiKey = "live_VTKxTfjUxbSqIaGoNrO4oNlLVoA57HoJJe5kRrvuK4JnjlSd8m9pYupvKdu5aCGz"; 
 axios.defaults.headers.common["x-api-key"] = apiKey;
 
 export function fetchBreeds() {
