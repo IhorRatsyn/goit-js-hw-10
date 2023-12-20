@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cat Search App</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slim-select/dist/slimselect.min.css">
+<!--  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slim-select/dist/slimselect.min.css">-->
   <link rel="stylesheet" href="/src/styles.css">
 
 </head>
@@ -13,25 +13,20 @@
 <body>
   <div class="container">
     <h1>Cat Search</h1>
-    <div class="loader" id="loader"></div>
     <div class="error" id="error">Error loading data. Please try again.</div>
     <select id="breedSelect" class="breed-select"></select>
+    <div class="loader" id="loader"></div>
     <div id="catInfo" class="cat-info">
-      <img src="" alt="Cat Image" id="catImage">
-      <div id="catDetails">
-        <h2 id="catName"></h2>
-        <p id="catDescription"></p>
-        <p id="catTemperament"></p>
-      </div>
     </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slim-select/dist/slimselect.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/notiflix@2.8.2/dist/notiflix.min.js"></script>
+<!--  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>-->
+<!--  <script src="https://cdn.jsdelivr.net/npm/slim-select/dist/slimselect.min.js"></script>-->
+<!--  <script src="https://cdn.jsdelivr.net/npm/notiflix@2.8.2/dist/notiflix.min.js"></script>-->
 
-  <script src="cat-api.js"></script>
-  <script src="app.js"></script>
+<!--  <script src="./cat-api.js"></script>-->
+<!--  <script src="app.js"></script>-->
+  <script src="./js/api-services.js" type="module"></script>
 </body>
 
 </html>
